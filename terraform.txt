@@ -1,0 +1,12 @@
+Step1: Install terraform & add test.tf file.
+        Test.tf=
+        provider "aws" {
+        access_key="ACCESS"
+        secret_key="SECRET"
+        region="us-east-1"
+        }
+ 
+        resource "aws_instance" "ubuntu" {
+        ami="ami-08c40ec9ead489470"
+        instance_type="t2.micro"
+        }
