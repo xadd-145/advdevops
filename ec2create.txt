@@ -12,4 +12,28 @@ SOURCE- ANYWHERE.
   
 NOW WAIT TILL THE STATUS CHECK IS 2/2 and Instance is running. 
 Once Check is complete click on launch instances. 
-  
+
+
+----------------------------------------------------------------------------
+RUN THESE:
+Python- sudo apt-get install python3
+Java- sudo apt-get install default-jdk
+C- sudo apt-get install gcc
+
+TO WRITE & RUN THE PROGRAM:
+Python-
+ Write python3, it opens repl type so write code thr.
+ Output comes as it is.
+
+Java-
+ Do cat>filename.java
+ start writing code & click ctrl+C to coem out of cat.
+ To run: 1)javac filename.java  
+         2)java filename
+
+C-
+ Do cat>filename.java
+ start writing code & click ctrl+C to coem out of cat.
+ To run: 1)gcc filename.c  
+         2)gcc filename.c -o program  
+         3)./program
