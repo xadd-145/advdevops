@@ -39,4 +39,9 @@ Write,
 terraform init
 terraform plan
 terraform apply
+Now in aws, check ec2 instance will be created & running stage.
+But it won't connect.
+Now to stop this instance, go in cmd & type,
+terraform destroy
+This will destroy, Now in aws check ec2 instance, it will be destroyed.
 
