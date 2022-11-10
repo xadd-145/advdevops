@@ -1,0 +1,83 @@
+It is used to create infrastructure.
+It acts as infrastructre as code...meaning automate provisioning, configuring & managing the infrastructure.
+Terraform is a tool used to building, changing & versioning of infrastructure safely & effectively.
+To create an instance, we use aws & performs manual steps, but in terraform it converts manual steps into script/code
+Terraform is an IAC tool, used primarily by DevOps teams to automate various infrastructure tasks. 
+The provisioning of cloud resources, for instance, is one of the main use cases of Terraform. 
+Terraform allows you to describe your complete infrastructure in the form of code. 
+The second main use for Terraform is to facilitate multi-cloud deployments.
+
+WHAT IS TERRAFORM?
+Terraform is used to automate & manage infrastructure, platfrom & services that run on tht platform.
+It is open source.
+It uses declarative language(No need to define everything)
+It is a Tool for infrastructure provisioning, meaning 
+Preparing infrastructure(pvt network space, ec2 server, install docker, security etc) done by Devops & then 
+Deploying application done by software developer.
+
+DIFFERENCE BETWEEN ANSIBLE & TERRAFORM (DO SAME THINGS KINDOF)
+They both are infrasture as code.
+Terraform is mainly infrastructure provisioning tool & can deploy apps.
+Whereas, Ansible is mainly configuration tool & can configure infras, deploy apps & install/update software.
+Ansible is more mature whereas Terraform is relatively new & changing dynamically.
+Terraform is much more advanced in orchestration.
+Devops exp use both together.
+
+HOW DOES TERRAFORM WORK?
+*TERRAFORM ARCHITECTURE:
+2 input sources:
+1.Terraform core= TF-config(wht to create/configure) & State(current state of setup)
+2.Providers for specific technologies=aws/azure, kubernetes, fastly.
+*ONCE CORE CREATES AN EXECUTION PLAN BASED ON INPUTS FROM TF & STATE, IT THEN USES PROVIDERS TO EXECUTE THE PLAN.
+
+TF FILE: First Configure AWS Provider then Creates a VPC(Vitual Private Connection)
+TERRAFORM USES DECLARATIVE LANGUAGE
+Declarative means you define WHAT THE END STATE should be. Imperative means HOW ie exact steps. 
+You tell what the final state is & do whatever u want to achieve it.
+
+COMMANDS FOR DIFFERENT STAGES:
+1.INIT:It initializes a working directory containing Terraform configuration files. This is the first command that should be run after writing a new Terraform configuration or cloning an existing one from version control.
+2.PLAN:Creates execution Plan.lets you to preview the actions Terraform would take to modify your infrastructure, or save a speculative plan which you can apply later. The function of terraform plan is speculative: you cannot apply it unless you save its contents and pass them to a terraform apply command. 
+3.APPLY:Executes the plan.Performs an executed plan just like terraform plan does, but then actually carries out the planned changes to each resource using the relevant infrastructure provider's API.
+4.DESTROY:Destroys the resouces & infrastruture.
+
+-----------------------------------------------------------------------------------------------
+Q]
+What is Terraform?
+Terraform is an open source “Infrastructure as Code” tool, created by HashiCorp.
+A declarative coding tool, Terraform enables developers to use a high-level configuration language called HCL (HashiCorp Configuration Language) to describe the desired “end-state” cloud or on-premises infrastructure for running an application. It then generates a plan for reaching that end-state and executes the plan to provision the infrastructure.
+Because Terraform uses a simple syntax, can provision infrastructure across multiple cloud and on-premises data centers, and can safely and efficiently re-provision infrastructure in response to configuration changes, it is currently one of the most popular infrastructure automation tools available. If your organization plans to deploy a hybrid cloud or multicloud environment, you’ll likely want or need to get to know Terraform.
+Terraform, on the other hand, is an Infrastructure as Code tool with a much broader reach, letting developers automate complete infrastructure that spans multiple public clouds and private clouds.
+Terraform can automate and manage Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), or even Software-as-a-Service (SaaS) level capabilities and build all these resources across all those providers in parallel.
+
+Q]
+Why Infrastructure as Code (IaC)?
+To better understand the advantages of Terraform, it helps to first understand the benefits of Infrastructure as Code (IaC). IaC allows developers to codify infrastructure in a way that makes provisioning automated, faster, and repeatable. It’s a key component of Agile and DevOps practices such as version control, continuous integration, and continuous deployment.
+Infrastructure as code can help with the following:
+1.Improve speed: Automation is faster than manually navigating an interface when you need to deploy and/or connect resources.
+2.Improve reliability: If your infrastructure is large, it becomes easy to misconfigure a resource or provision services in the wrong order. With IaC, the resources are always provisioned and configured exactly as declared.
+3.Prevent configuration drift: Configuration drift occurs when the configuration that provisioned your environment no longer matches the actual environment. (See ‘Immutable infrastructure’ below.)
+4.Support experimentation, testing, and optimization: Because Infrastructure as Code makes provisioning new infrastructure so much faster and easier, you can make and test experimental changes without investing lots of time and resources; and if you like the results, you can quickly scale up the new infrastructure for production.
+
+Q]
+Why Terraform?
+There are a few key reasons developers choose to use Terraform over other Infrastructure as Code tools:
+1.Open source: Terraform is backed by large communities of contributors who build plugins to the platform. Regardless of which cloud provider you use, it’s easy to find plugins, extensions, and professional support. This also means Terraform evolves quickly, with new benefits and improvements added consistently.
+2.Platform agnostic: Meaning you can use it with any cloud services provider. Most other IaC tools are designed to work with single cloud provider.
+3.Immutable infrastructure: Most Infrastructure as Code tools create mutable infrastructure, meaning the infrastructure can change to accommodate changes such as a middleware upgrade or new storage server. The danger with mutable infrastructure is configuration drift—as the changes pile up, the actual provisioning of different servers or other infrastructure elements ‘drifts’ further from the original configuration, making bugs or performance issues difficult to diagnose and correct. Terraform provisions immutable infrastructure, which means that with each change to the environment, the current configuration is replaced with a new one that accounts for the change, and the infrastructure is reprovisioned. Even better, previous configurations can be retained as versions to enable rollbacks if necessary or desired.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
