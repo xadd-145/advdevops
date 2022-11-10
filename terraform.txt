@@ -1,5 +1,6 @@
 Step1: 
-Install terraform. Create a terraform folder in C drive.
+Install terraform from https://developer.hashicorp.com/terraform/downloads. 
+Create a terraform folder in C drive.
 
 Step2:
 In AWS, open EC2
