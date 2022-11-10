@@ -8,7 +8,7 @@ int main() {
    //printf("Hello Aditi!\n");
    return 0;
 }
------------------------------------------
+-------------------------------------------------------------
 Sum.c
 #include <stdio.h>
 int main() {    
@@ -25,3 +25,5 @@ int main() {
     printf("Sum: %d\n", c);
     return 0;
 }
+-------------------------------------------------------------
+Run gcc hello.c (&) gcc hello.c -o hello (&) ./hello
