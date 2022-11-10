@@ -28,13 +28,13 @@ Python-
 
 Java-
  Do cat>filename.java
- start writing code & click ctrl+C to coem out of cat.
+ start writing code & click ctrl+C to come out of cat.
  To run: 1)javac filename.java  
          2)java filename
 
 C-
  Do cat>filename.java
- start writing code & click ctrl+C to coem out of cat.
+ start writing code & click ctrl+C to come out of cat.
  To run: 1)gcc filename.c  
          2)gcc filename.c -o program  
          3)./program
