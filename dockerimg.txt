@@ -31,4 +31,3 @@ terraform apply
 docker images
 terraform destroy
 docker images
-
