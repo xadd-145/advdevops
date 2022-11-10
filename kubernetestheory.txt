@@ -1,0 +1,19 @@
+Kubernetes is a portable, extensible, open source platform for managing contanized workloads & services, that facilitates both declarative configuration & automation, 
+letting us run distributed systems resiliently, with scaling & failover for your application.
+Basically, it is Container Orchestrator.
+It hepls make sure that each container is where its supposed to be & that container can work together.
+Kubernetes makes sure services are running smoothly the way the app developer wants.
+Originally designed by Google & then donated to Cloud Native Computing Foundatuon.
+Kubernates is large & complex system for automating, deploying, scaling & operating application containers.
+------------------------------------------------------------------------------------------------
+WHAT DOES KUBERNETES MEAN?
+Kubernetes, or k8s, is an open source platform that automates Linux container operations. 
+It eliminates many of the manual processes involved in deploying and scaling containerized applications.
+In other words, you can cluster together groups of hosts running Linux containers, and Kubernetes helps you easily and efficiently manage those clusters.
+A container orchestrator would say how many web server front end containers are needed, what they serve, and how many resources are to be dedicated to each one.
+Kubernetes is most often used with Docker, the most popular containerization platform, it can also work with any container system that conforms to the Open Container Initiative (OCI) standards for container image formats and runtimes. 
+
+CONTAINER ORCHESTRATION
+Eg.Let’s say an application environment is your old-school lunchbox.
+The contents of the lunchbox were all assembled well before putting them into the lunchbox [but] there was no isolation between any of those contents. 
+The Kubernetes system provides a lunchbox that allows for just-in-time expansion of the contents (scaling) and full isolation between every unique item in the lunchbox and the ability to remove any item without affecting any of the other contents (immutability).
