@@ -11,10 +11,4 @@ b=int(input('Enter second No:'))
 c=a+b
 print("Sum:",c)
 -------------------------------------------------------------
-Product.py
-#a=2
-#b=6
-a=int(input("Enter first No:"))
-b=int(input('Enter second No:'))
-c=a*b
-print("Product:",c)
+
