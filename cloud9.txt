@@ -1,1 +1,27 @@
-hi
+Step 1:
+In AWS, Search cloud9.
+Click create environment.
+
+Step 2:
+Name the environment, next,
+In configure setting, 
+select new ec2 instance, t2 micro, amazon linux 2, next,
+Click create environment.
+(Cloud 9 will be created, it will take some time)
+
+Step 3:
+(Now select any coding language & perform any operation via code.)
+Click + & open new file....write code init & while saving create a new folder.
+Click + & open new terminal....to execute the code...cd foldername & execute.
+
+To execute write these as follows,
+Python= python hello.py
+Java= javac hello.java (&) java hello
+C= gcc hello.c (&) gcc hello.c -o program (&) ./program
+
+
+
+
+
+
+
