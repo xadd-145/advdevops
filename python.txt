@@ -11,4 +11,4 @@ b=int(input('Enter second No:'))
 c=a+b
 print("Sum:",c)
 -------------------------------------------------------------
-
+Run python hello.py
