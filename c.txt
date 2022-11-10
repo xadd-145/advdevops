@@ -1,0 +1,27 @@
+Hello.c
+#include <stdio.h>
+int main() {
+   char name[20];
+   printf("Enter name:");
+   scanf("%s", name);
+   printf("Hello %s!\n",name);
+   //printf("Hello Aditi!\n");
+   return 0;
+}
+-----------------------------------------
+Sum.c
+#include <stdio.h>
+int main() {    
+
+    int a, b, c;
+    
+    printf("Enter first no: ");
+    scanf("%d", &a);
+    printf("Enter first no: ");
+    scanf("%d", &b);
+    //int a=5, int b=3
+    c = a + b;   
+    
+    printf("Sum: %d\n", c);
+    return 0;
+}
