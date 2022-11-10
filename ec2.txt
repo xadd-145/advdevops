@@ -15,7 +15,7 @@ Once Check is complete click on launch instances.
 
 
 ----------------------------------------------------------------------------
-RUN THESE:
+RUN THESE TO Install:
 Python- sudo apt-get install python3
 Java- sudo apt-get install default-jdk
 C- sudo apt-get install gcc
@@ -24,6 +24,7 @@ TO WRITE & RUN THE PROGRAM:
 Python-
  Write python3, it opens repl type so write code thr.
  Output comes as it is.
+ Ctrl+D to come out of repl.
 
 Java-
  Do cat>filename.java
