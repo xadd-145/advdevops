@@ -18,10 +18,3 @@ To execute write these as follows,
 Python= python hello.py
 Java= javac hello.java (&) java hello
 C= gcc hello.c (&) gcc hello.c -o program (&) ./program
-
-
-
-
-
-
-
