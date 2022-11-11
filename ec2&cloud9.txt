@@ -1,0 +1,13 @@
+EC2
+The full form of Amazon EC2 is Amazon Elastic Compute Cloud. Amazon EC2 is one of the most used and most basic services on Amazon
+Amazon EC2 lets users launch and manage server instances, at any time and for as long as they need.
+EC2 is a machine with an operating system and hardware components of your choice.
+But the difference is that it is totally virtualized. 
+EC2 enables on-demand, scalable computing capacity in the AWS cloud.
+
+Cloud9
+The AWS Cloud9 IDE offers a rich code-editing experience with support for several programming languages and runtime debuggers, as well as a built-in terminal. 
+It contains a collection of tools that you use to code, build, run, test, and debug software, and helps you release software to the cloud.
+
+Cloud9 is better than Ec2
+
