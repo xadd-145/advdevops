@@ -18,7 +18,9 @@ Once Check is complete click on launch instances.
 RUN THESE TO Install:
 Python- sudo apt-get install python3
 Java- sudo apt-get install default-jdk
-C- sudo apt-get install gcc
+C- sudo apt update
+sudo apt install gcc
+sudo apt-get install gcc
 
 TO WRITE & RUN THE PROGRAM:
 Python-
