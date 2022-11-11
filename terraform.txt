@@ -4,6 +4,10 @@ Create a terraform folder in C drive.
 
 Step2:
 In AWS, open EC2
+Go in security group...create grp...give name,desc,
+Select all traffic & 0.0.0.0
+Create grp & copy sg wala no 
+Then 
 Copy ami no & launch ec2.
 
 Step 3:
@@ -25,8 +29,9 @@ region="us-east-1"
 }
  
 resource "aws_instance" "ubuntu" {
-ami="ami-08c40ec9ead489470"
+ami="ami-(yr_no)"
 instance_type="t2.micro"
+vpc_security_group_ids = "sg-(security no)"
 }
 
 Step 5:
