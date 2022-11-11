@@ -29,9 +29,9 @@ region="us-east-1"
 }
  
 resource "aws_instance" "ubuntu" {
-ami="ami-(yr_no)"
+ami="ami-07303730"
 instance_type="t2.micro"
-vpc_security_group_ids = "sg-(security no)"
+vpc_security_group_ids = ["sg-93838302"]
 }
 
 Step 5:
